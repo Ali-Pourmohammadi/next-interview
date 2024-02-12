@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@font-face {
+  font-family: IranSans;
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+  src: local("IranSans"), url("https://asset.offch.com/fonts/IranSans/eot/IRANSansWeb.eot");
+  src: local("IranSans"),
+    url("https://asset.offch.com/fonts/IranSans/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("https://asset.offch.com/fonts/IranSans/woff2/IRANSansWeb.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("https://asset.offch.com/fonts/IranSans/woff/IRANSansWeb.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("https://asset.offch.com/fonts/IranSans/ttf/IRANSansWeb.ttf")
+      format("truetype");
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: IranSans;
+  direction: rtl;
+}
+
+main *,
+footer * {
+  font-family: IranSans;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
