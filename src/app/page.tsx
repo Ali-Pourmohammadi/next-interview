@@ -46,27 +46,47 @@ export default function Home() {
               برای استایل دهی میتوانید از فایل global.css یا inline-css یا tailwind و یا هر روش دیگری که بلد هستید
               استفاده کنید
             </p>
+            <p className="mt-6 text-lg leading-10 text-gray-300"></p>
           </div>
         </div>
 
         <div className="mx-auto max-w-7xl mt-10 text-white">
           <Question
             questionNumber={1}
-            question={`یک کامپوننت به نام Counter ایجاد کنید که دو دکمه داشته باشد که با زدن دکمه + یک عدد به شمارنده اضافه و با زدن دکمه - یک عدد کم کند و اگر آن عدد ضریب 5 بود در کنسول یک پیغامی را نمایش دهد`}
+            question={`تفاوت server side rendering و client side rendering را توضیح دهید و در چه مواقعی باید از هر کدام استفاده کرد و مزایای هر کدام را نام ببرید`}
           />
           <Question
             questionNumber={2}
+            question={`ریداکس را توضیح دهید. کارایی بخش های مختلف آن را با ذکر مثال توضیح دهید`}
+          />
+          <Question questionNumber={3} question={`TypeScript چیست؟ مزایای ان را توضیح دهید`} />
+          <Question
+            questionNumber={4}
+            question={`یک کامپوننت به نام Counter ایجاد کنید که دو دکمه داشته باشد که با زدن دکمه + یک عدد به شمارنده اضافه و با زدن دکمه - یک عدد کم کند و اگر آن عدد ضریب 5 بود در کنسول یک پیغامی را نمایش دهد`}
+          />
+          <Question
+            questionNumber={5}
             question={`یک هدر (NavBar) طراحی کنید که یک لوگو داشته باشد که به صفحه اصلی لینک می شود . یک منو که به صفحه درباره ما (صفحه درباره ما ایجاد شود). یک منو به نام گالری تصاویر (صفحه گالری ایجاد شود) و منو ها به صفحه خودشان لینک شوند. یک لوگو درون پوشه پابلیک قرار دارد. در نهایت هدر در تمام صفحات نمایش داده شوند`}
           />
           <Question
-            questionNumber={3}
+            questionNumber={6}
             question={`درون صفحه گالری تصاویر این آدرس را Fetch کنید https://jsonplaceholder.typicode.com/albums/1/photos  و به صورت گالری تصاویر نمایش دهید و با کلیک بر روی هر تصویر سایز بزرگ آن در یک تب جدید نمایش داده شود`}
           />
           <Question
-            questionNumber={4}
+            questionNumber={7}
             question={`یک image Slider با هر کتابخانه و روشی که دوست دارید بسازید چند تصویر داخل پوشه public/slider وجود دارد که آن تصاویر را درون اسلایدر نمایش دهید. اسلایدر باید قابلیت swipe با انگشت و قابلیت auto slide داشته باشد که به صورت خودکار به تصویر بعد برود`}
           />
-          <Question questionNumber={2} question={``} />
+          <Question
+            questionNumber={8}
+            question={`یک صفحه داینامیک با اسم post ایجاد کنید که بر اساس id اطلاعات هر پست را نمایش دهد که از این آدرس fetch کنید: https://jsonplaceholder.typicode.com/posts/1  مثلا به این آدرس: /post/1 و این عدد متغیر باشد 
+ و اگر post وجود نداشت ارور 404 بدهد`}
+          />
+
+          <Question
+            questionNumber={9}
+            question={`یک فرم ساده طراحی کنید و مهارت خود را در زمینه کار با فرم ها نشان دهید (مثلا داده ها را درون فرم وارد کنید و پس از فشردن دکمه ثبت، اطلاعات را در کنسول نمایش دهید)`}
+          />
+
           <Question questionNumber={2} question={``} />
         </div>
       </div>
