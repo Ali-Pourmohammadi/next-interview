@@ -104,38 +104,44 @@ export default function Home() {
 
           <Question
             questionNumber={8}
+            question={`امتیاز CLS مربوط به Core Web Vital را توضیح دهید و برای نگه داشتن این امتیاز نزدیک به 0 چه کارهایی را باید در طراحی وبسایت و NextJS رعایت کرد؟`}
+          />
+          <Answer>جواب</Answer>
+
+          <Question
+            questionNumber={9}
             question={`یک کامپوننت به نام Counter ایجاد کنید که دو دکمه داشته باشد که با زدن دکمه + یک عدد به شمارنده اضافه و با زدن دکمه - یک عدد کم کند و اگر آن عدد ضریب 5 بود در کنسول یک پیغامی را نمایش دهد`}
           />
 
           <Question
-            questionNumber={9}
+            questionNumber={10}
             question={`یک هدر (NavBar) طراحی کنید که یک لوگو داشته باشد که به صفحه اصلی لینک می شود . یک منو که به صفحه درباره ما (صفحه درباره ما ایجاد شود). یک منو به نام گالری تصاویر (صفحه گالری ایجاد شود) و منو ها به صفحه خودشان لینک شوند. یک لوگو درون پوشه پابلیک قرار دارد. در نهایت هدر در تمام صفحات نمایش داده شوند`}
           />
 
           <Question
-            questionNumber={10}
+            questionNumber={11}
             question={`درون صفحه گالری تصاویر این آدرس را Fetch کنید https://jsonplaceholder.typicode.com/albums/1/photos  و به صورت گالری تصاویر نمایش دهید و با کلیک بر روی هر تصویر سایز بزرگ آن در یک تب جدید نمایش داده شود`}
           />
 
           <Question
-            questionNumber={11}
+            questionNumber={12}
             question={`یک image Slider با هر کتابخانه و روشی که دوست دارید بسازید چند تصویر داخل پوشه public/slider وجود دارد که آن تصاویر را درون اسلایدر نمایش دهید. اسلایدر باید قابلیت swipe با انگشت و قابلیت auto slide داشته باشد که به صورت خودکار به تصویر بعد برود`}
           />
 
           <Question
-            questionNumber={12}
+            questionNumber={13}
             question={`یک صفحه داینامیک با اسم post ایجاد کنید که بر اساس id اطلاعات هر پست را نمایش دهد که از این آدرس fetch کنید: https://jsonplaceholder.typicode.com/posts/1  مثلا به این آدرس: /post/1 و این عدد متغیر باشد 
  و اگر post وجود نداشت ارور 404 بدهد`}
           />
 
           <Question
-            questionNumber={13}
+            questionNumber={14}
             question={`یک فرم ساده طراحی کنید که سه فیلد نام ایمیل و شماره موبایل داشته باشد و یک دکمه ثبت که موقع فشردن ثبت اطلاعات ایمیل و موبایل Validate شوند و در نهایت نتیجه فرم در کنسول چاپ شود
 
 `}
           />
           <Question
-            questionNumber={14}
+            questionNumber={15}
             question={`Incremental Static Regeneration (ISR) یا در نسخه جدید: generateStaticParams را در nextjs توضیح دهید و یک صفحه با api دلخواه پیاده سازی کنید که از این روش data fetching استفاده میکند`}
           />
         </div>
